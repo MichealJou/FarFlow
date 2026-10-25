@@ -1,0 +1,28 @@
+[workspace]
+members = ["crates/core", "crates/server", "crates/desktop"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.26", features = ["v4", "serde"] }
+thiserror = "2.0"
+sha2 = "0.10"
+rusqlite = { version = "0.37", features = ["bundled", "backup"] }
+tempfile = "3.27"
+argon2 = "0.6"
+axum = { version = "0.8.9", default-features = false, features = ["http1", "json", "query", "tokio"] }
+# 直接使用 PostgreSQL 驱动，避免 SQLx 总入口的可选 SQLite 绑定与本地 rusqlite 冲突。
+sqlx-core = { version = "0.8.6", default-features = false, features = ["_rt-tokio", "_tls-rustls-ring-webpki"] }
+sqlx-postgres = { version = "0.8.6", default-features = false, features = ["uuid"] }
+percent-encoding = "2.3"
+tokio = { version = "1.53", features = ["macros", "rt-multi-thread", "net", "signal", "sync", "time"] }
+tower = { version = "0.5", features = ["util"] }
+tower-http = { version = "0.6.11", default-features = false, features = ["fs"] }
+process-wrap = { version = "10.0.1", default-features = false, features = ["std", "process-group", "job-object", "creation-flags"] }
+hyper-util = { version = "0.1.21", features = ["client-legacy", "http1", "tokio"] }

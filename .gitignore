@@ -1,0 +1,14 @@
+target/
+/apps/desktop/src-tauri/gen/
+node_modules/
+dist/
+/.runtime/
+/coverage/
+/docs/验证记录/*覆盖率.json
+/docs/验证记录/*测试日志.txt
+/playwright-report/
+*.profraw
+.DS_Store
+.env
+.env.*
+!.env.example

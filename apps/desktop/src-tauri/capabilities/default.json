@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "FarFlow 本机窗口和用户配置的团队服务连接",
+  "windows": ["main"],
+  "permissions": ["core:default", { "identifier": "http:default", "allow": [{"url":"https://*:*"},{"url":"http://*:*"}] }]
+}

@@ -1,0 +1,396 @@
+{
+  "日期": "2026-10-25",
+  "完整测试数": 185,
+  "失败数": 0,
+  "报告": "2026-10-25-服务正式迁移覆盖率.json",
+  "报告sha256": "7cba3d29e54707268c65e750b10f2ab599e6018cce2d61ac9948c7c6f42ae869",
+  "覆盖率": {
+    "lines": {
+      "count": 9900,
+      "covered": 9489,
+      "percent": 95.84848484848484
+    },
+    "functions": {
+      "count": 852,
+      "covered": 776,
+      "percent": 91.07981220657277
+    },
+    "regions": {
+      "count": 18294,
+      "covered": 16363,
+      "notcovered": 1931,
+      "percent": 89.44462665354762
+    }
+  },
+  "源码": [
+    {
+      "路径": "crates/core/src/engine.rs",
+      "sha256": "eef1014d04b2c5a3744adeac8db9c9d4d80381a8c3b0db30e1997b0e667f5958",
+      "覆盖率": {
+        "lines": {
+          "count": 1725,
+          "covered": 1661,
+          "percent": 96.28985507246377
+        },
+        "functions": {
+          "count": 127,
+          "covered": 117,
+          "percent": 92.12598425196852
+        },
+        "regions": {
+          "count": 3091,
+          "covered": 2864,
+          "notcovered": 227,
+          "percent": 92.65609835004854
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/gitlog.rs",
+      "sha256": "d43bffd211626890e5dc2680e53c764a0d2000fd259681767f3b6fd2a6131b6a",
+      "覆盖率": {
+        "lines": {
+          "count": 655,
+          "covered": 592,
+          "percent": 90.38167938931298
+        },
+        "functions": {
+          "count": 56,
+          "covered": 51,
+          "percent": 91.07142857142857
+        },
+        "regions": {
+          "count": 1082,
+          "covered": 981,
+          "notcovered": 101,
+          "percent": 90.66543438077635
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/migration.rs",
+      "sha256": "d542368867aeee04a9a8e0a55dee247b365f21fa772deca968a7e01f4ef264d4",
+      "覆盖率": {
+        "lines": {
+          "count": 588,
+          "covered": 570,
+          "percent": 96.93877551020408
+        },
+        "functions": {
+          "count": 45,
+          "covered": 43,
+          "percent": 95.55555555555556
+        },
+        "regions": {
+          "count": 1020,
+          "covered": 942,
+          "notcovered": 78,
+          "percent": 92.3529411764706
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/model.rs",
+      "sha256": "87522d66cc1b5b8c8aa7bc863cea3f23b4b31aec6a089b0cbfac1368b3cc4dbf",
+      "覆盖率": {
+        "lines": {
+          "count": 35,
+          "covered": 34,
+          "percent": 97.14285714285714
+        },
+        "functions": {
+          "count": 5,
+          "covered": 5,
+          "percent": 100.0
+        },
+        "regions": {
+          "count": 63,
+          "covered": 62,
+          "notcovered": 1,
+          "percent": 98.4126984126984
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/repository.rs",
+      "sha256": "d0127a3addd0fdeeeb47ea574e0f92878462e3397daef5b366817b4874c6240c",
+      "覆盖率": {
+        "lines": {
+          "count": 1405,
+          "covered": 1326,
+          "percent": 94.37722419928824
+        },
+        "functions": {
+          "count": 114,
+          "covered": 97,
+          "percent": 85.08771929824562
+        },
+        "regions": {
+          "count": 2733,
+          "covered": 2344,
+          "notcovered": 389,
+          "percent": 85.76655689718258
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/repository/remote.rs",
+      "sha256": "162714b67a8adb39ce27f6fe52908a499107002fc396d25fb8e490e2528a452c",
+      "覆盖率": {
+        "lines": {
+          "count": 314,
+          "covered": 301,
+          "percent": 95.85987261146497
+        },
+        "functions": {
+          "count": 24,
+          "covered": 24,
+          "percent": 100.0
+        },
+        "regions": {
+          "count": 512,
+          "covered": 469,
+          "notcovered": 43,
+          "percent": 91.6015625
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/store.rs",
+      "sha256": "bc1b66aa2e585fb83d4f35052f87abc6b757aed392e9f7f6e9d6fc5f9c040d26",
+      "覆盖率": {
+        "lines": {
+          "count": 1119,
+          "covered": 1090,
+          "percent": 97.40840035746203
+        },
+        "functions": {
+          "count": 96,
+          "covered": 92,
+          "percent": 95.83333333333334
+        },
+        "regions": {
+          "count": 2276,
+          "covered": 1981,
+          "notcovered": 295,
+          "percent": 87.03866432337433
+        }
+      }
+    },
+    {
+      "路径": "crates/core/src/transfer.rs",
+      "sha256": "f72e36d6a662e8709d67a618e29a0a5e2a374c598a52f98a46d756d24b975734",
+      "覆盖率": {
+        "lines": {
+          "count": 318,
+          "covered": 313,
+          "percent": 98.42767295597484
+        },
+        "functions": {
+          "count": 18,
+          "covered": 18,
+          "percent": 100.0
+        },
+        "regions": {
+          "count": 493,
+          "covered": 471,
+          "notcovered": 22,
+          "percent": 95.53752535496957
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/backup.rs",
+      "sha256": "39847f190182197dc57293263e0c3f2274f326cecc78f87b73b33d4cf8530a4f",
+      "覆盖率": {
+        "lines": {
+          "count": 937,
+          "covered": 878,
+          "percent": 93.7033084311633
+        },
+        "functions": {
+          "count": 70,
+          "covered": 59,
+          "percent": 84.28571428571429
+        },
+        "regions": {
+          "count": 1811,
+          "covered": 1555,
+          "notcovered": 256,
+          "percent": 85.86416344561016
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/lib.rs",
+      "sha256": "704baf1ab740b7cac13e7bb85903091917fbcdffdaac4696d4928d65c683ccb6",
+      "覆盖率": {
+        "lines": {
+          "count": 819,
+          "covered": 808,
+          "percent": 98.65689865689866
+        },
+        "functions": {
+          "count": 82,
+          "covered": 77,
+          "percent": 93.90243902439023
+        },
+        "regions": {
+          "count": 1456,
+          "covered": 1336,
+          "notcovered": 120,
+          "percent": 91.75824175824177
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/main.rs",
+      "sha256": "748d05cc11b5a25b033d4142ceebf51ed01377dce1f3b7e87ff95a7bf37ccd0b",
+      "覆盖率": {
+        "lines": {
+          "count": 176,
+          "covered": 176,
+          "percent": 100.0
+        },
+        "functions": {
+          "count": 14,
+          "covered": 14,
+          "percent": 100.0
+        },
+        "regions": {
+          "count": 369,
+          "covered": 349,
+          "notcovered": 20,
+          "percent": 94.579945799458
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/migration.rs",
+      "sha256": "772ca0093f93922035a0acc364f1bd6a472b045e9f82fec9abe61ee19f0586c0",
+      "覆盖率": {
+        "lines": {
+          "count": 492,
+          "covered": 471,
+          "percent": 95.73170731707317
+        },
+        "functions": {
+          "count": 53,
+          "covered": 48,
+          "percent": 90.56603773584906
+        },
+        "regions": {
+          "count": 940,
+          "covered": 816,
+          "notcovered": 124,
+          "percent": 86.80851063829788
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/storage.rs",
+      "sha256": "f7eb38c93440a0d5488988e52eef24a8bedcf65f915aa37864827bba2943fd38",
+      "覆盖率": {
+        "lines": {
+          "count": 155,
+          "covered": 149,
+          "percent": 96.12903225806451
+        },
+        "functions": {
+          "count": 12,
+          "covered": 10,
+          "percent": 83.33333333333334
+        },
+        "regions": {
+          "count": 295,
+          "covered": 262,
+          "notcovered": 33,
+          "percent": 88.81355932203388
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/transfer.rs",
+      "sha256": "7d653fdd4077d7bd25e33d41d2709fd949c908d5dd0c2b695d7b55886dde1ef3",
+      "覆盖率": {
+        "lines": {
+          "count": 346,
+          "covered": 332,
+          "percent": 95.95375722543352
+        },
+        "functions": {
+          "count": 34,
+          "covered": 33,
+          "percent": 97.05882352941178
+        },
+        "regions": {
+          "count": 713,
+          "covered": 624,
+          "notcovered": 89,
+          "percent": 87.51753155680224
+        }
+      }
+    },
+    {
+      "路径": "crates/server/src/workspace.rs",
+      "sha256": "f54cdda369605deec045d4f0680cc8748a67a4a4186874b7ae5f2a79a9a17222",
+      "覆盖率": {
+        "lines": {
+          "count": 816,
+          "covered": 788,
+          "percent": 96.56862745098039
+        },
+        "functions": {
+          "count": 102,
+          "covered": 88,
+          "percent": 86.27450980392157
+        },
+        "regions": {
+          "count": 1440,
+          "covered": 1307,
+          "notcovered": 133,
+          "percent": 90.76388888888889
+        }
+      }
+    }
+  ],
+  "SQL及关键测试": [
+    {
+      "路径": "crates/server/migrations/0001_identity.sql",
+      "sha256": "63d4323dbb876dc88bbff412996492d941633b22365f5e7c6d1707c57f95b1ad"
+    },
+    {
+      "路径": "crates/server/migrations/0002_workspaces.sql",
+      "sha256": "c1d1a63763165243f5fba10158f7e223cf9921ceaef3ae6ed32a812c53395e1f"
+    },
+    {
+      "路径": "crates/server/migrations/0003_storage.sql",
+      "sha256": "396020a3122e0fc37189082af2d81e06f054c0efc2a3f288b000712d373d5e81"
+    },
+    {
+      "路径": "crates/server/migrations/0004_restore.sql",
+      "sha256": "ee80c922c873911bec4235f3a902aff45e3dd28e665c7c892d626c8262ed40d1"
+    },
+    {
+      "路径": "crates/server/migrations/0005_workspace_identity.sql",
+      "sha256": "6a6c891d6e4ef8e40b9caaa38b0c1c85c72b71a7c5ed48bad1cd90ef070365f2"
+    },
+    {
+      "路径": "crates/server/migrations/0006_transfer.sql",
+      "sha256": "7aa5c019d44fa32343233c9c759e1aefed0b51dedcfbd75010662684d9d0c760"
+    },
+    {
+      "路径": "crates/server/tests/cases/migration.rs",
+      "sha256": "2342c93df2b7815da1fd12a507d25ac10acc241de87a8824d4a5b3bac211ecee"
+    },
+    {
+      "路径": "crates/server/tests/cases/workspaces.rs",
+      "sha256": "59c2a0314a1dcab2fd560d1262f3607007f6e6d6456bd735eb472f20a259164d"
+    },
+    {
+      "路径": "crates/core/tests/transfer.rs",
+      "sha256": "5f17d486fa6172b293b89bba6a49758447ce58028ccf5f0d3abaca796e7d1747"
+    }
+  ],
+  "说明": "Rust稳定版工具未提供分支覆盖率。SQL不在Rust覆盖率数字中，由实际数据库测试另证。"
+}

@@ -1,0 +1,211 @@
+{
+  "日期": "2026-10-25",
+  "完整测试数": 197,
+  "失败数": 0,
+  "报告": "docs/验证记录/2026-10-25-Git源交接覆盖率.json",
+  "报告sha256": "4614be3cd248c80b6efc4bf1317b73291e4583767251f21b0fd529f941bfbce0",
+  "测试日志": "docs/验证记录/2026-10-25-Git源交接测试日志.txt",
+  "测试日志sha256": "1397eb0850b3d79e825c0083f993cfdf9558ec79d3c68eb91c8ddc618ae48f4e",
+  "覆盖率": {
+    "行": 95.66,
+    "函数": 90.78,
+    "区域": 89.17
+  },
+  "源码": [
+    {
+      "路径": "crates/core/src/engine.rs",
+      "sha256": "eef1014d04b2c5a3744adeac8db9c9d4d80381a8c3b0db30e1997b0e667f5958",
+      "行": 96.29,
+      "函数": 92.13,
+      "区域": 92.66
+    },
+    {
+      "路径": "crates/core/src/gitlog.rs",
+      "sha256": "d43bffd211626890e5dc2680e53c764a0d2000fd259681767f3b6fd2a6131b6a",
+      "行": 87.02,
+      "函数": 87.5,
+      "区域": 88.17
+    },
+    {
+      "路径": "crates/core/src/migration.rs",
+      "sha256": "d542368867aeee04a9a8e0a55dee247b365f21fa772deca968a7e01f4ef264d4",
+      "行": 96.94,
+      "函数": 95.56,
+      "区域": 92.35
+    },
+    {
+      "路径": "crates/core/src/model.rs",
+      "sha256": "87522d66cc1b5b8c8aa7bc863cea3f23b4b31aec6a089b0cbfac1368b3cc4dbf",
+      "行": 97.14,
+      "函数": 100.0,
+      "区域": 98.41
+    },
+    {
+      "路径": "crates/core/src/repository.rs",
+      "sha256": "5a872f8111bd817452ff3267eeb3c7ea1ed73d1cde675e182ef373c5202d13a5",
+      "行": 94.6,
+      "函数": 85.71,
+      "区域": 86.11
+    },
+    {
+      "路径": "crates/core/src/repository/handoff.rs",
+      "sha256": "727a7481a0e415cb91a90d51413af8002149793f9d6b9dfeb5331e2b56061ac5",
+      "行": 95.39,
+      "函数": 88.52,
+      "区域": 87.05
+    },
+    {
+      "路径": "crates/core/src/repository/remote.rs",
+      "sha256": "553cdab3c6dfc2dd8feb8caf803427578328c8c4defd8c06a3972f2cd630952f",
+      "行": 95.86,
+      "函数": 100.0,
+      "区域": 91.6
+    },
+    {
+      "路径": "crates/core/src/store.rs",
+      "sha256": "67f5ed02bc0281fe1ca49689e250db7472e1b38734201cfbb8a00fc8eaee489c",
+      "行": 97.49,
+      "函数": 96.0,
+      "区域": 86.95
+    },
+    {
+      "路径": "crates/core/src/transfer.rs",
+      "sha256": "f72e36d6a662e8709d67a618e29a0a5e2a374c598a52f98a46d756d24b975734",
+      "行": 98.43,
+      "函数": 100.0,
+      "区域": 95.54
+    },
+    {
+      "路径": "crates/server/src/backup.rs",
+      "sha256": "39847f190182197dc57293263e0c3f2274f326cecc78f87b73b33d4cf8530a4f",
+      "行": 93.7,
+      "函数": 84.29,
+      "区域": 85.86
+    },
+    {
+      "路径": "crates/server/src/lib.rs",
+      "sha256": "704baf1ab740b7cac13e7bb85903091917fbcdffdaac4696d4928d65c683ccb6",
+      "行": 98.66,
+      "函数": 93.9,
+      "区域": 91.76
+    },
+    {
+      "路径": "crates/server/src/main.rs",
+      "sha256": "748d05cc11b5a25b033d4142ceebf51ed01377dce1f3b7e87ff95a7bf37ccd0b",
+      "行": 100.0,
+      "函数": 100.0,
+      "区域": 94.58
+    },
+    {
+      "路径": "crates/server/src/migration.rs",
+      "sha256": "772ca0093f93922035a0acc364f1bd6a472b045e9f82fec9abe61ee19f0586c0",
+      "行": 95.73,
+      "函数": 90.57,
+      "区域": 86.81
+    },
+    {
+      "路径": "crates/server/src/storage.rs",
+      "sha256": "f7eb38c93440a0d5488988e52eef24a8bedcf65f915aa37864827bba2943fd38",
+      "行": 96.13,
+      "函数": 83.33,
+      "区域": 88.81
+    },
+    {
+      "路径": "crates/server/src/transfer.rs",
+      "sha256": "7d653fdd4077d7bd25e33d41d2709fd949c908d5dd0c2b695d7b55886dde1ef3",
+      "行": 95.95,
+      "函数": 97.06,
+      "区域": 87.52
+    },
+    {
+      "路径": "crates/server/src/workspace.rs",
+      "sha256": "f54cdda369605deec045d4f0680cc8748a67a4a4186874b7ae5f2a79a9a17222",
+      "行": 96.57,
+      "函数": 86.27,
+      "区域": 90.76
+    }
+  ],
+  "其他源码": [
+    {
+      "路径": "crates/core/src/lib.rs",
+      "sha256": "cbd65eb07b52110c8673e8b54602bc4d0bfadc7208404c8f9e3f686a9dfda8bf"
+    }
+  ],
+  "SQL及关键测试": [
+    {
+      "路径": "crates/server/migrations/0001_identity.sql",
+      "sha256": "63d4323dbb876dc88bbff412996492d941633b22365f5e7c6d1707c57f95b1ad"
+    },
+    {
+      "路径": "crates/server/migrations/0002_workspaces.sql",
+      "sha256": "c1d1a63763165243f5fba10158f7e223cf9921ceaef3ae6ed32a812c53395e1f"
+    },
+    {
+      "路径": "crates/server/migrations/0003_storage.sql",
+      "sha256": "396020a3122e0fc37189082af2d81e06f054c0efc2a3f288b000712d373d5e81"
+    },
+    {
+      "路径": "crates/server/migrations/0004_restore.sql",
+      "sha256": "ee80c922c873911bec4235f3a902aff45e3dd28e665c7c892d626c8262ed40d1"
+    },
+    {
+      "路径": "crates/server/migrations/0005_workspace_identity.sql",
+      "sha256": "6a6c891d6e4ef8e40b9caaa38b0c1c85c72b71a7c5ed48bad1cd90ef070365f2"
+    },
+    {
+      "路径": "crates/server/migrations/0006_transfer.sql",
+      "sha256": "7aa5c019d44fa32343233c9c759e1aefed0b51dedcfbd75010662684d9d0c760"
+    },
+    {
+      "路径": "Cargo.toml",
+      "sha256": "04adeae1ac46bd0c0df112e8d2c34bc60886c3da5981bc6d9dc19dc66f678859"
+    },
+    {
+      "路径": "Cargo.lock",
+      "sha256": "b1f142f88f4c6415a3dc92965fbaf1d271ef3d1c216533cba6ec21519b048b9e"
+    },
+    {
+      "路径": "crates/core/Cargo.toml",
+      "sha256": "cc5dd71bcaa6b8cd36311009582f0ff673579f4991fddcc8a0dc7edfa5bba38b"
+    },
+    {
+      "路径": "crates/server/Cargo.toml",
+      "sha256": "c0b0927a5f0dacff4bf577ffaf6d37e6dced559ad5b042b09d55854debc0d028"
+    },
+    {
+      "路径": "crates/core/tests/git_transfer.rs",
+      "sha256": "1c804d9012cd3294f2982c571bbfb2554b57fba341505d2d3f1b9aad00ceb73b"
+    },
+    {
+      "路径": "crates/core/tests/transfer.rs",
+      "sha256": "474f8d92f071456e8d34555aef822d17e2393cb2f4a6556bb546e371ce7ea3b6"
+    },
+    {
+      "路径": "crates/core/tests/repository.rs",
+      "sha256": "a422f340700ba76744c5697f9594a4e975429c6e69a39c72a1fd034f5b175ae7"
+    },
+    {
+      "路径": "crates/core/tests/remote.rs",
+      "sha256": "bb4a6da8af33104055d5c6dd5b71138e2a6266a975fa3e8a88e570b1e18e00fd"
+    },
+    {
+      "路径": "crates/server/tests/cases/migration.rs",
+      "sha256": "6a8f4c4936c1316d1b7f162d9321b3defcc6b296a0d3932c0815197da4456c17"
+    },
+    {
+      "路径": "crates/server/tests/cases/workspaces.rs",
+      "sha256": "aae283f681e9284bdb52049b110fcfcafa2b6a98c59296589f53ed233a1aa3a0"
+    },
+    {
+      "路径": "crates/server/tests/accounts.rs",
+      "sha256": "d5caed6eabcd396d9b8b8bffbb8dc118a02691f483157cceb73e836ccb3ca20b"
+    }
+  ],
+  "说明": [
+    "六条不同模式正式交接库接口已有实现和运行证据；不能代替桌面 UI、CLI、性能、部署或最终禅道比对。",
+    "成员声明本人全部副本已同步停写，不是对未知设备的远程全局锁。",
+    "迟到角色交接的原切点所有者只保留控制权限，不恢复普通业务权限。",
+    "16 个含可执行代码的 Rust 文件逐文件行、函数、区域均至少 80%；纯重导出文件另存校验值。",
+    "未新增第三方依赖；服务生产源码与 SQL 不变。"
+  ]
+}

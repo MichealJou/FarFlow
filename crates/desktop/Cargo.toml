@@ -1,0 +1,13 @@
+[package]
+name = "farflow-desktop"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+farflow-core = { path = "../core" }
+serde.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+serde_json.workspace = true

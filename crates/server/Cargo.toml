@@ -1,0 +1,24 @@
+[package]
+name = "farflow-server"
+default-run = "farflow-server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+farflow-core = { path = "../core" }
+argon2.workspace = true
+axum.workspace = true
+sqlx-core.workspace = true
+sqlx-postgres.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+percent-encoding.workspace = true
+tempfile.workspace = true
+tower-http.workspace = true
+
+[dev-dependencies]
+tower.workspace = true
+hyper-util.workspace = true

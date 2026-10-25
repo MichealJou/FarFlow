@@ -1,0 +1,21 @@
+[package]
+name = "farflow-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+thiserror.workspace = true
+sha2.workspace = true
+rusqlite.workspace = true
+tempfile.workspace = true
+process-wrap.workspace = true
+
+[target.'cfg(any(target_os = "macos", target_os = "linux"))'.dependencies]
+rustix = { version = "=1.1.5", features = ["fs"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "=0.61.2", features = ["Win32_Foundation", "Win32_Storage_FileSystem"] }

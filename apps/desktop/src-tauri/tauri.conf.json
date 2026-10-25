@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "FarFlow",
+  "version": "0.1.0",
+  "identifier": "dev.farflow.desktop",
+  "build": {
+    "beforeBuildCommand": "npm run build --prefix ../..",
+    "beforeDevCommand": "npm run dev --prefix ../.. -- --host 127.0.0.1 --port 14731 --strictPort",
+    "devUrl": "http://127.0.0.1:14731",
+    "frontendDist": "../../web/dist/client"
+  },
+  "app": {
+    "windows": [{ "label": "main", "title": "FarFlow · 研流", "width": 1325, "height": 820, "minWidth": 760, "minHeight": 600, "resizable": true, "center": true }],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' asset: http://asset.localhost blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src ipc: http://ipc.localhost; frame-src blob:; object-src 'none'",
+      "devCsp": null
+    }
+  },
+  "bundle": { "active": true, "targets": ["app"], "icon": ["icons/icon.png", "icons/icon.icns", "icons/icon.ico"] }
+}
